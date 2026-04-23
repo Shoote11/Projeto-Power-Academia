@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* TOPO */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: rgb(255, 145, 0);
+    padding: 20px;
+}
+
+
+
+h2 {
+    color: rgb(255, 145, 0);
+}
+
+p {
+    color: rgb(216, 216, 216);
+}
+
+
+/* CARD */
+
+.cardsobre {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* BANNER */
+.banner {
+    height: 90vh;
+    background: url('../arquivos/backgroundacademia.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: rgb(255, 145, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .cardsobre {
+    position: static;
+    transform: none;
+
+    margin: 20px auto;
+    width: 90%;
+  }
+
+}
