@@ -41,6 +41,31 @@ p {
     max-width: 400px;
 }
 
+
+.Card-Planos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap; /* Usei para quebrar a linha quando chegar no "limite"*/
+}
+
+
+
+.card {
+    background-color: #0f0f0fd2;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    text-align: center; 
+    transition: 0.3s;
+
+}
+
+
 /* BANNER */
 .banner {
     height: 90vh;
